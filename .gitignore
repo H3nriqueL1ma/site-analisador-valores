@@ -1,0 +1,9 @@
+# .gitignore
+
+# Dependencies
+node_modules/
+
+# Misc
+webpack.config.js
+.eslintignore
+.eslintrc.json

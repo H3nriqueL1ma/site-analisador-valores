@@ -1,0 +1,70 @@
+$button-border-radius: 5px
+$button-height: 25px
+$button-transition: 0.2s
+$button-cursor: pointer
+
+body
+  background-color: gray
+  text-align: center
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+
+  header
+    color: white
+
+  section 
+    text-align: left
+    background-color: white
+    border-radius: 10px
+    padding: 20px
+    width: 35%
+    margin: 0 auto
+
+    #content 
+      button#addi 
+        position: relative
+        left: 5px
+        border-radius: $button-border-radius
+        border: none
+        height: $button-height
+        transition: $button-transition
+        cursor: $button-cursor
+
+        &:hover 
+          background-color: black
+          color: white
+          transform: scale(1.1)
+
+      #num
+        width: 30%
+
+    #result
+      padding: 10px 0 0 0
+
+      button#finalize
+        position: relative
+        border: none
+        top: 5px
+        border-radius: $button-border-radius
+        height: $button-height
+        transition: $button-transition
+        cursor: $button-cursor
+
+        &:hover
+          background-color: black
+          color: white
+          transform: scale(1.1)
+
+  footer
+    width: 100%
+    position: absolute
+    bottom: 590px
+    right: 230px
+
+    #img
+      width: 2%
+      transition: $button-transition
+
+      &:hover
+        transform: scale(1.1)
+
+            

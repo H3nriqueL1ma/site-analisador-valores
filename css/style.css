@@ -1,0 +1,63 @@
+body {
+  background-color: gray;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+body header {
+  color: white;
+}
+body section {
+  text-align: left;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  width: 35%;
+  margin: 0 auto;
+}
+body section #content button#addi {
+  position: relative;
+  left: 5px;
+  border-radius: 5px;
+  border: none;
+  height: 25px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+body section #content button#addi:hover {
+  background-color: black;
+  color: white;
+  transform: scale(1.1);
+}
+body section #content #num {
+  width: 30%;
+}
+body section #result {
+  padding: 10px 0 0 0;
+}
+body section #result button#finalize {
+  position: relative;
+  border: none;
+  top: 5px;
+  border-radius: 5px;
+  height: 25px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+body section #result button#finalize:hover {
+  background-color: black;
+  color: white;
+  transform: scale(1.1);
+}
+body footer {
+  width: 100%;
+  position: absolute;
+  bottom: 590px;
+  right: 230px;
+}
+body footer #img {
+  width: 2%;
+  transition: 0.2s;
+}
+body footer #img:hover {
+  transform: scale(1.1);
+}/*# sourceMappingURL=style.css.map */
